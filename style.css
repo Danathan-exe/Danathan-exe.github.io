@@ -3,8 +3,8 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
     background-color: #f4f4f9;
+    color: #333;
 }
 
 /* Header */
@@ -29,6 +29,7 @@ header p {
     width: 80%;
     max-width: 900px;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 section {
@@ -44,29 +45,32 @@ h2 {
     color: #444;
 }
 
-ul {
-    list-style-type: disc;
+/* Projects Section */
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.project {
+    padding: 1rem;
+    background: #eaeaea;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin: 0 0 0.5rem;
+}
+
+.project p {
     margin: 0;
-    padding-left: 1.5rem;
 }
 
-ul li {
-    margin-bottom: 0.5rem;
-}
-
+/* Footer */
 footer {
     text-align: center;
     padding: 1rem 0;
     background: #333;
     color: #fff;
     margin-top: 2rem;
-}
-
-a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
